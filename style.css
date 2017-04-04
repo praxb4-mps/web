@@ -69,3 +69,7 @@ iframe {
     width: 100%;
     border: none;
 }
+/*header*/
+img#hlavicka {
+    height: 96px;
+}
