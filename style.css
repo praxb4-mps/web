@@ -1,0 +1,66 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+div.web {
+    height: 100%;
+    width: 100%;
+}
+header {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    float: none;
+}
+nav#horizontal {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    float: none;
+}
+nav#vertical {
+    position: relative;
+    height: calc(100% - 150px);
+    width: 200px;
+    top: 0px;
+    left: 0px;
+    float: left;
+}
+div.content {
+    position: relative;
+    height: calc(100% - 150px);
+    width: calc(100% - 350px);
+    top: 0px;
+    left: 0px;
+    float: left;
+}
+main {
+    position: relative;
+    height: calc(100% - 20px);
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    float: none;
+}
+footer {
+    position: relative;
+    height: 20px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    float: none;
+}
+aside {
+    position: relative;
+    height: calc(100% - 150px);
+    width: 150px;
+    top: 0px;
+    right: 0px;
+    float: right;
+}
