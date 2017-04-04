@@ -64,3 +64,8 @@ aside {
     right: 0px;
     float: right;
 }
+iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
