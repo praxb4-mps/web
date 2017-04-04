@@ -102,3 +102,21 @@ div.menu li a:hover:not(.m) {
 div.menu .m {
     background-color: #ea8e13;
 }
+/*nav-vertical*/
+div.menu2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+div.menu2 li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+div.menu2 li a:hover {
+    background-color: #ea8e13;
+    color: #ffffff;
+}
