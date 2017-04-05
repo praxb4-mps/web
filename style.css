@@ -137,5 +137,5 @@ div.reklama {
     align-content: center;
 }
 img#stroj {
-    width: 95px;
+    width: 95px !important;
 }
