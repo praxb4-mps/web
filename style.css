@@ -64,3 +64,78 @@ aside {
     right: 0px;
     float: right;
 }
+iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+/*header*/
+div.header {
+    overflow: hidden;
+    height: 100px;
+}
+img#hlavicka {
+    height: 100px;
+    overflow: hidden;
+}
+/*nav-horizontal*/
+div.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+div.menu li {
+    float: left;
+}
+div.menu li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+div.menu li a:hover:not(.m) {
+    background-color: #111;
+}
+div.menu .m {
+    background-color: #ff8424;
+}
+/*nav-vertical*/
+div.menu2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+div.menu2 li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+div.menu2 li a:hover {
+    background-color: #ff8424;
+    color: #ffffff;
+}
+/*footer*/
+div.pata {
+    background-color: #333;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+span#pata {
+    color: #ffffff;
+    size: 12px;
+    font-size: 12px;
+}
+/*aside*/
+div.reklama {
+    align-content: center;
+}
+img#stroj {
+    width: 95px;
+}
