@@ -9,8 +9,12 @@ div.uvod {
     height: 100%;
     width: 100%;
 }
+img {
+    width: 400px;
+}
 img#pc {
     float: right;
+    width: auto;
 }
 span {
     position: relative;
@@ -23,4 +27,19 @@ span#ceny {
 }
 div.tabulka {
     position: relative;
+}
+div.galeria {
+    position: relative;
+    float: none;
+}
+div.A01 {
+    position: relative;
+    float: left;
+}
+div.A02 {
+    position: relative;
+    float: left;
+}
+img#pc2 {
+    height: 300px;
 }
