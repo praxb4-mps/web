@@ -16,3 +16,11 @@ span {
     position: relative;
     top: 20px;
 }
+span#ceny {
+    color: #ff0000;
+    font-size: 30px;
+    top: 0px;
+}
+div.tabulka {
+    position: relative;
+}
