@@ -5,11 +5,14 @@ html, body {
     padding: 0;
 }
 div.uvod {
-    background-color: #ffe2cc;
     font-size: 20px;
     height: 100%;
     width: 100%;
 }
 img#pc {
     float: right;
+}
+span {
+    position: relative;
+    top: 20px;
 }
