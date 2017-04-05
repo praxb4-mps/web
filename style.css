@@ -132,3 +132,7 @@ span#pata {
     size: 12px;
     font-size: 12px;
 }
+/*aside*/
+div.reklama {
+    align-content: center;
+}
